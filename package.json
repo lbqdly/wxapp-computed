@@ -1,0 +1,27 @@
+{
+  "name": "wxapp-computed",
+  "version": "1.0.0",
+  "description": "在微信小程序中使计算值(computed)",
+  "main": "weapp-computed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b5156/wxapp-computed.git"
+  },
+  "keywords": [
+    "computed",
+    "computed",
+    "vue",
+    "weapp",
+    "wxapp",
+    "wechat"
+  ],
+  "author": "liangyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b5156/wxapp-computed/issues"
+  },
+  "homepage": "https://github.com/b5156/wxapp-computed#readme"
+}
