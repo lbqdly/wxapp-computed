@@ -12,7 +12,7 @@ npm install wxapp-computed
 ## Example
 
 ```js
-import computed from "weapp-computed";
+import computed from "wxapp-computed";
 
 Page(
   computed({
