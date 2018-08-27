@@ -1,8 +1,8 @@
 {
   "name": "wxapp-computed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "在微信小程序中使计算值(computed)",
-  "main": "weapp-computed.js",
+  "main": "wxapp-computed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
