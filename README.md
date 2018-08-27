@@ -1,6 +1,6 @@
 # wxapp-computed
 
-在微信小程序中使计算值(computed),易用、轻量、无依赖、无侵入。
+在微信小程序中使计算值(computed),易用、轻量、无依赖、无侵入。
 
 ## Installation
 
