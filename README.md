@@ -18,7 +18,7 @@ Page(
   computed({
     data: {
       name: "Messi",
-      get fullName() {
+      get anotherName() {
         return `The Great ${this.name}`;
       },
       get prettyName() {
@@ -35,7 +35,7 @@ Page(
 
 ```xml
 <view>
-  {{name}} / {{fullName}} / {{prettyName}}
+  {{name}} / {{anotherName}} / {{prettyName}}
 </view>
 ```
 
