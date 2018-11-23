@@ -22,7 +22,7 @@ Page(
         return `The Great ${this.name}`;
       },
       get prettyName() {
-        return this.fullName.split("").join("~");
+        return this.anotherName.split("").join("~");
       }
     },
     onLoad() {
