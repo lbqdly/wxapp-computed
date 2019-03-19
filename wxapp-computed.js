@@ -44,7 +44,7 @@ function setPath(obj, path, value) {
 // 计算属性装饰器
 function computed(page) {
   if (!isObj(page)) {
-    throw new TypeError("参数必须是一个");
+    throw new TypeError("参数必须是一个Object");
   }
   const _onLoad = page.onLoad;
   page.onLoad = function() {
