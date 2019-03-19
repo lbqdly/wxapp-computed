@@ -1,6 +1,6 @@
 {
   "name": "wxapp-computed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "在微信小程序中使计算值(computed)",
   "main": "wxapp-computed.js",
   "scripts": {

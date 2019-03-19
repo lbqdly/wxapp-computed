@@ -12,30 +12,30 @@ npm install wxapp-computed
 ## Example
 
 ```js
-import computed from "wxapp-computed";
+import computed from 'wxapp-computed'
 
 Page(
   computed({
     data: {
-      name: "Messi",
-      get anotherName() {
-        return `The Great ${this.name}`;
+      name: 'Messi',
+      get uppercaseName() {
+        return this.name.toUpperCase()
       },
-      get prettyName() {
-        return this.anotherName.split("").join("~");
+      get reversedName() {
+        return this.uppercaseName.split('').reverse().join('')
       }
     },
     onLoad() {
-      // this.setData({ name: "Ronaldo" });
+      // this.setData({ name: 'Ronaldo' })
     }
     // ...
   })
-);
+)
 ```
 
 ```xml
 <view>
-  {{name}} / {{anotherName}} / {{prettyName}}
+  {{name}} / {{uppercaseName}} / {{reversedName}}
 </view>
 ```
 

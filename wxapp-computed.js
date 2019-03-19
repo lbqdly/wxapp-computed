@@ -56,7 +56,7 @@ function computed(page) {
       writable: false,
       value: (d, f) => {
         if (!isObj(d)) {
-          throw new TypeError("param has to be plain object");
+          throw new TypeError("参数必须是一个Object");
         }
         Object.keys(d).forEach(k => {
           setPath(_data, k, d[k]);
