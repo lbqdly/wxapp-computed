@@ -36,6 +36,7 @@ Page(
 ```xml
 <view>
   {{name}} / {{uppercaseName}} / {{reversedName}}
+  // 将显示为： Messi / MESSI / ISSEM
 </view>
 ```
 
